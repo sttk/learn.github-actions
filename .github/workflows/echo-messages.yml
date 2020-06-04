@@ -1,11 +1,11 @@
 name: echo-message
 
-on: issue
+on: issues
 
 jobs:
   echo-greeting:
     name: Greeting
-    run-on: [ubuntu-latest, windows-latest, macos-latest]
+    runs-on: [ubuntu-latest, windows-latest, macos-latest]
     steps:
       - name: Hello world
         run: echo 'Hello, world!'
@@ -15,7 +15,7 @@ jobs:
 
   echo-thanks:
     name: Thanks
-    run-on: [windows-2019, ubuntu-18.04, macos-10.15]
+    runs-on: [windows-2019, ubuntu-18.04, macos-10.15]
     steps:
       - name: Thank you very much
         run: echo 'Thank you very much!'
