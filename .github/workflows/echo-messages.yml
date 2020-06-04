@@ -1,0 +1,24 @@
+name: echo-message
+
+on: issue
+
+jobs:
+  echo-greeting:
+    name: Greeting
+    run-on: [ubuntu-latest, windows-latest, macos-latest]
+    steps:
+      - name: Hello world
+        run: echo 'Hello, world!'
+      
+      - name: こんにちは世界
+        run: echo 'こんにちは、世界！'
+
+  echo-thanks:
+    name: Thanks
+    run-on: [windows-2019, ubuntu-18.04, macos-10.15]
+    steps:
+      - name: Thank you very much
+        run: echo 'Thank you very much!'
+      
+      - name: ありがとう
+        run: echo 'どうもありがとう！'
