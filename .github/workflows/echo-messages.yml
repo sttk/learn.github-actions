@@ -5,7 +5,7 @@ on: issues
 jobs:
   echo-greeting:
     name: Greeting
-    runs-on: [ubuntu-latest, windows-latest, macos-latest]
+    runs-on: ubuntu-latest
     steps:
       - name: Hello world
         run: echo 'Hello, world!'
@@ -15,7 +15,7 @@ jobs:
 
   echo-thanks:
     name: Thanks
-    runs-on: [windows-latest, ubuntu-latest, macos-latest]
+    runs-on: ubuntu-latest
     steps:
       - name: Thank you very much
         run: echo 'Thank you very much!'
