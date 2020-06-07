@@ -5,7 +5,7 @@ on: issues
 jobs:
   echo-greeting:
     name: Greeting
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest  # Only single value is possible.
     steps:
       - name: Hello world
         run: echo 'Hello, world!'
@@ -15,10 +15,21 @@ jobs:
 
   echo-thanks:
     name: Thanks
-    runs-on: ubuntu-latest
+    runs-on: windows-latest  # Only single value is possible.
     steps:
       - name: Thank you very much
         run: echo 'Thank you very much!'
       
       - name: ありがとう
         run: echo 'どうもありがとう！'
+  
+  echo-cheer:
+    name: Cheer
+    runs-on: macos-latest  # Only single value is possible.
+    steps:
+      - name: Go for it
+        run: echo 'Go for it!'
+      
+      - name: がんばれ
+        run: echo 'がんばれ！'
+        
