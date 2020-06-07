@@ -1,0 +1,12 @@
+name: schedule_a_workflow
+on:
+  schedule:
+    - cron: '0 15 * * *' # every 00:00 JST = 15:00 UTC
+      
+jobs:
+  echo-message:
+    name: echo_message
+    runs-on: ubuntu-latest
+    steps:
+      - name: a_happy_new_day
+        run: echo 'A Happy New Day!'
