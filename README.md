@@ -16,3 +16,5 @@ The project to learn GitHub Actions.
 3. [schedule-for-midnight-in-jst.yml](.github/workflows/schedule-for-midnight-in-jst.yml)
 
     Checks scheduling function with `cron` syntax of which timezone must be UTC.
+    
+4. [filter-branches-tags-paths.yaml](.github/workflows/filter-branches-tags-paths.yaml)
