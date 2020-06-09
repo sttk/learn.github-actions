@@ -3,10 +3,6 @@ on:
   pull_request:
     branches:
       - filtered_branch
-    tags:
-      - filtered_tag
-    paths:
-      - filtered_path
 
 jobs:
   echo_hello:
