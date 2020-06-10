@@ -18,3 +18,5 @@ The project to learn GitHub Actions.
     Checks scheduling function with `cron` syntax of which timezone must be UTC.
     
 4. [filter-branches-tags-paths.yaml](.github/workflows/filter-branches-tags-paths.yaml)
+
+    Filter conditions for pushing and `filtered_branch` branch.
