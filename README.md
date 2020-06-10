@@ -19,4 +19,4 @@ The project to learn GitHub Actions.
     
 4. [filter-branches-tags-paths.yaml](.github/workflows/filter-branches-tags-paths.yaml)
 
-    Filter conditions for pushing and `filtered_branch` branch.
+    Filter conditions for pushing and a branch.
