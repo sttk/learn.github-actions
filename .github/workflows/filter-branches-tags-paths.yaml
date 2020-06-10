@@ -2,7 +2,7 @@ name: filter-branches-tags-paths
 on:
   push:
     branches: 
-      filtered_branch
+      - filtered_branch
 
 jobs:
   echo_hello:
