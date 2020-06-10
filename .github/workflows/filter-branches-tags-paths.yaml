@@ -1,5 +1,8 @@
 name: filter-branches-tags-paths
-on: pull_request
+on:
+  push:
+    branches: 
+      filtered_branch
 
 jobs:
   echo_hello:
