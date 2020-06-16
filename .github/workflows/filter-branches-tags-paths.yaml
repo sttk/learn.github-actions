@@ -1,7 +1,7 @@
 name: filter-branches-tags-paths
 on:
-  pull_request:
-    branches:
+  push:
+    branches: 
       - filtered_branch
 
 jobs:
