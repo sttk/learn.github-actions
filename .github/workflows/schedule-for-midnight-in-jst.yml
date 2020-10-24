@@ -1,7 +1,7 @@
 name: schedule_a_workflow
 on:
   schedule:
-    - cron: '0 15 * * *' # every 00:00 JST = 15:00 UTC
+    # cron: '0 15 * * *' # every 00:00 JST = 15:00 UTC
       
 jobs:
   echo-message:
